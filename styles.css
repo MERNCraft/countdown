@@ -54,7 +54,7 @@ span::before {
 }
 /* Use an admiring message */
 span::after {
-  content: "You saved us all... with only " counter(countdown) counter(second, second) " to go!"
+  content: "You saved us all... with only " counter(countdown) counter(second, seconds) " to go!"
 }
 
 /* Wrap the rules for spans inside the rule that selects the
